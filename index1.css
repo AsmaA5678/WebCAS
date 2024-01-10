@@ -1,0 +1,176 @@
+#user_type {
+    height: 40px;
+    width: 98%;
+    padding: 5px 10px;
+    background: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    width: 30px;
+    height: 30px;
+    padding: 5px; 
+    font-size: 15px;
+    color: white;
+    background: #5D8AA8;
+    border: none;
+    border-radius: 50%; 
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+}
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.profile_info img {
+    display: inline-block; 
+    width: 50px; 
+    height: 50px; 
+    margin: 5px;
+    float: left;
+}
+.profile_info div {
+    display: inline-block; 
+    margin: 5px;
+}
+.profile_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  div {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #5D8AA8;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button.btn {
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    background: #5D8AA8;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button.btn:hover {
+    background: #3a6170;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    margin: 0;
+}
+
+section {
+    padding: 10px 10px;
+}
+
+
+.navbar {
+    background-color: #5D8AA8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+.space {
+    margin-top: 70px; 
+    padding: 20px; 
+}
+
+.content1 {
+    padding: 20px;
+}
+.space h2 {
+    color: black; 
+    font-family: 'Trocchi', serif; 
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0; 
+    margin-bottom: 5px;
+    margin-top:10px;
+    text-align: center;
+}
+a.logout-link {
+    font-size: 15px;
+    color: rgba(239, 48, 48, 0.948);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.logout-link:hover {
+    text-decoration: underline;
+}
+.profile_info {
+    display: flex;
+    align-items: center;
+}
+
+.profile_info img {
+    width: 70px; 
+    height: 70px;
+    margin-right: 10px; 
+}
+.profile_info div {
+    flex: 1; 
+}
+
+.profile_info strong {
+    font-size: 18px;
+}
+
+.profile_info small {
+    font-size: 14px; 
+    color: #888;
+}
