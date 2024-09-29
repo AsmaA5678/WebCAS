@@ -77,7 +77,7 @@ function getUserById($id){
     }
 
     $user = mysqli_fetch_assoc($result);
-    var_dump($user); // ligne pour déboguer
+    var_dump($user); 
 
     return $user;
 }
